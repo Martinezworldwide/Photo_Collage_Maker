@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Collage Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Photo Collage Maker</h1>
+        <input type="file" id="imageUpload" multiple accept="image/*">
+        <div id="collage"></div>
+        <button onclick="downloadCollage()">Download Collage</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
