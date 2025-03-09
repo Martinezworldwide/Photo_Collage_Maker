@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e2e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: #282a36;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#imageUpload {
+    margin: 10px 0;
+}
+
+#collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #44475a;
+    min-height: 150px;
+    background: #44475a;
+    border-radius: 8px;
+}
+
+#collage img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    cursor: move;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+#collage img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    padding: 10px 15px;
+    background: #ff5555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ff2222;
+}
